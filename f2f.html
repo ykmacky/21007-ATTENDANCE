@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>F2F Attendance | BSIT-21007</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="shortcut icon"
+        href="images/BSIT.png"
+        type="image/png"
+    >
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="nav-left">
+
+            <div class="logo-box">
+                <img
+                    src="images/BSIT.png"
+                    alt="BSIT Logo"
+                >
+            </div>
+
+            <div class="brand">
+                <h2>BSIT-21007</h2>
+                <p>F2F ATTENDANCE</p>
+            </div>
+
+        </div>
+
+        <button
+            id="themeToggle"
+            class="theme-btn"
+            title="Toggle Dark / Light Mode"
+        >
+            <span id="themeIcon">☀️</span>
+        </button>
+
+    </header>
+
+
+    <main class="container">
+
+        <section class="page-header glass">
+
+            <a href="index.html" class="back-button">
+                ← Back
+            </a>
+
+            <div class="page-title">
+
+                <div class="large-folder-icon">
+                    🏫
+                </div>
+
+                <div>
+                    <p>FOLDER / ATTENDANCE</p>
+
+                    <h1>F2F Attendance</h1>
+
+                    <span>
+                        Face-to-Face Class Records
+                    </span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="glass section">
+
+            <div class="section-heading">
+
+                <div class="section-icon">
+                    🖼️
+                </div>
+
+                <div>
+                    <p>F2F FOLDER</p>
+                    <h2>Attendance Pictures</h2>
+                </div>
+
+            </div>
+
+
+            <div class="attendance-grid">
+
+
+                <!-- 📸 UPLOAD/ADD F2F PICTURE HERE -->
+
+                <div class="attendance-card">
+
+                    <img
+                        src="f2f/f2fatt.jpg"
+                        alt="F2F Attendance"
+                        class="clickable-image"
+                    >
+
+                    <div class="attendance-info">
+
+                        <h3>F2F Attendance</h3>
+
+                        <p>
+                            Face-to-Face Attendance
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- 📸 COPY THE BLOCK ABOVE TO ADD ANOTHER F2F PICTURE -->
+
+
+            </div>
+
+        </section>
+
+
+        <footer>
+
+            <p>
+                BSIT-21007 • F2F Attendance
+            </p>
+
+            <span>
+                Click a picture to view it fullscreen
+            </span>
+
+        </footer>
+
+    </main>
+
+
+    <div id="imageViewer" class="image-viewer">
+
+        <button
+            id="closeViewer"
+            class="close-viewer"
+        >
+            ✕
+        </button>
+
+        <img
+            id="fullImage"
+            src=""
+            alt="Full Screen Image"
+        >
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

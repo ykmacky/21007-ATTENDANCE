@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Online Attendance | BSIT-21007</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        rel="shortcut icon"
+        href="images/BSIT.png"
+        type="image/png"
+    >
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="nav-left">
+
+            <div class="logo-box">
+                <img
+                    src="images/BSIT.png"
+                    alt="BSIT Logo"
+                >
+            </div>
+
+            <div class="brand">
+                <h2>BSIT-21007</h2>
+                <p>ONLINE ATTENDANCE</p>
+            </div>
+
+        </div>
+
+        <button
+            id="themeToggle"
+            class="theme-btn"
+            title="Toggle Dark / Light Mode"
+        >
+            <span id="themeIcon">☀️</span>
+        </button>
+
+    </header>
+
+
+    <main class="container">
+
+        <section class="page-header glass">
+
+            <a href="index.html" class="back-button">
+                ← Back
+            </a>
+
+            <div class="page-title">
+
+                <div class="large-folder-icon">
+                    💻
+                </div>
+
+                <div>
+                    <p>FOLDER / ATTENDANCE</p>
+
+                    <h1>Online Attendance</h1>
+
+                    <span>
+                        Online Class Records
+                    </span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="glass section">
+
+            <div class="section-heading">
+
+                <div class="section-icon">
+                    🖼️
+                </div>
+
+                <div>
+                    <p>ONLINE FOLDER</p>
+                    <h2>Attendance Pictures</h2>
+                </div>
+
+            </div>
+
+
+            <div class="attendance-grid">
+
+
+                <!-- 📸 UPLOAD/ADD ONLINE PICTURE HERE -->
+
+                <div class="attendance-card">
+
+                    <img
+                        src="online/HCI_8-1.png"
+                        alt="Online Attendance"
+                        class="clickable-image"
+                    >
+
+                    <div class="attendance-info">
+
+                        <h3>HC1 August 1, 2026</h3>
+
+                        <p>
+                            Online Class Attendance
+                        </p>
+
+                    </div>
+
+                </div>
+
+            
+
+
+                <!-- 📸 COPY THE BLOCK ABOVE TO ADD ANOTHER ONLINE PICTURE -->
+
+
+            </div>
+
+        </section>
+
+
+        <footer>
+
+            <p>
+                BSIT-21007 • Online Attendance
+            </p>
+
+            <span>
+                Click a picture to view it fullscreen
+            </span>
+
+        </footer>
+
+    </main>
+
+
+    <div id="imageViewer" class="image-viewer">
+
+        <button
+            id="closeViewer"
+            class="close-viewer"
+        >
+            ✕
+        </button>
+
+        <img
+            id="fullImage"
+            src=""
+            alt="Full Screen Image"
+        >
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
